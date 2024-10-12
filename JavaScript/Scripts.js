@@ -15,7 +15,7 @@ function newItem () {
     }
     li.on("dblclick", strikeout);
 
-    let button = $('<button class="crossOutButton">X<button>');
+    let button = $('<button class="crossOutButton">X</button>');
     button.on("click", deleteListItem);
     li.append(button);
 
